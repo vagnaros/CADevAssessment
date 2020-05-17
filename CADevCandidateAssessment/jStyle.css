@@ -1,0 +1,11 @@
+body{background-image: url("/resources/Parchment.jpg");background-size:100vw 100vh;background-repeat:no-repeat;}
+h1{text-align:center;color:lavender;}
+
+.comment{border-style: inset;border-radius: 8px;border-color:rgba(50,100,100,0.50);background-color:rgba(150,150,150,0.25);
+    width:50%;margin-bottom:8px;margin-left:25%;}
+.comment_user{border-bottom-style:inset;border-right-style:inset;
+    border-radius:8px;border-color:rgba(50,100,100,0.50);float:left;font-family:inherit;}
+.comment_time{border-bottom-style:inset;border-left-style:inset;
+    border-radius:8px;border-color:rgba(50,100,100,0.50);float:right;font-family:inherit;}
+.comment_text{text-align:left;width:75vw;font-family:inherit;padding-top:25px;}
+/* .comment_report{float: right;margin-bottom:8px;}
